@@ -1,0 +1,5 @@
+reached_goal=1
+steps=36
+replans=7
+observed_cells=298
+final_path_length=0

@@ -1,0 +1,7 @@
+x,y,label,confidence,backend
+7,8,obstacle,0.999946,torch_mlp
+8,8,obstacle,0.999298,torch_mlp
+9,8,obstacle,0.999993,torch_mlp
+7,9,free,1.000000,torch_mlp
+8,9,free,1.000000,torch_mlp
+9,9,free,1.000000,torch_mlp
