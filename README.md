@@ -1,6 +1,6 @@
-# Robot Nav MVP
+# Robot Nav
 
-Minimal autonomous navigation MVP with:
+Autonomous navigation MVP:
 
 - A true 2D world map
 - A robot belief map with unknown cells
@@ -22,14 +22,14 @@ robot_nav_mvp/
 ## Build
 
 ```powershell
-cd C:\Users\ryan0\OneDrive\Documents\Playground\cpp-ml-python-project\robot_nav_mvp\cpp
+cd cpp
 g++ -std=c++17 -O2 main.cpp grid_map.cpp robot.cpp planner.cpp simulator.cpp -o robot_nav
 ```
 
 Or with CMake:
 
 ```powershell
-cd C:\Users\ryan0\OneDrive\Documents\Playground\cpp-ml-python-project\robot_nav_mvp\cpp
+cd cpp
 cmake -S . -B build
 cmake --build build --config Release
 ```
@@ -67,7 +67,7 @@ The default run loads `../maps/map1.txt`, executes the simulator, prints the bel
 ## Train The PyTorch Model
 
 ```powershell
-cd C:\Users\ryan0\OneDrive\Documents\Playground\cpp-ml-python-project\robot_nav_mvp\ml
+cd ml
 python train.py
 ```
 
